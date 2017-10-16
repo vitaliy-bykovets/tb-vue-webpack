@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "name": "Трубочки з білковим кремом",
+      "description": "Трубочки з білковим кремом",
+      "contain": "",
+      "price": 110,
+      "image": "item-01.jpg",
+      "popularity": 0,
+      "added": "2017-09-20T16:00:00.000Z"
+    },
+    {
+      "name": "Шоколадно-апельсинове печиво",
+      "description": "Шоколадно-апельсинове печиво",
+      "contain": "",
+      "price": 85,
+      "image": "item-02.jpg",
+      "popularity": 1,
+      "added": "2017-09-20T17:00:00.000Z"
+    },
+    {
+      "name": "Кантучіні з мигдалем",
+      "description": "Кантучіні з мигдалем",
+      "contain": "",
+      "price": 140,
+      "image": "item-03.jpg",
+      "popularity": 3,
+      "added": "2017-09-20T18:00:00.000Z"
+    },
+    {
+      "name": "Кекси з сиром",
+      "description": "Кекси з сиром",
+      "contain": "",
+      "price": 140,
+      "image": "item-04.jpg",
+      "popularity": 0,
+      "added": "2017-10-01T19:00:00.000Z"
+    },
+    {
+      "name": "Вівсяне печиво",
+      "description": "Вівсяне печиво",
+      "contain": "",
+      "price": 100,
+      "image": "item-05.jpg",
+      "popularity": 0,
+      "added": "2017-10-01T19:10:00.000Z"
+    },
+    {
+      "name": "Печиво з шоколадними крихтами",
+      "description": "Печиво з шоколадними крихтами",
+      "contain": "",
+      "price": 100,
+      "image": null,
+      "popularity": 0,
+      "added": "2017-10-01T19:20:00.000Z"
+    },
+    {
+      "name": "Імбирне печиво",
+      "description": "Імбирне печиво",
+      "contain": "",
+      "price": 80,
+      "image": null,
+      "popularity": 0,
+      "added": "2017-10-01T19:30:00.000Z"
+    },
+    {
+      "name": "Апельсинове печиво з сиром",
+      "description": "Апельсинове печиво з сиром",
+      "contain": "",
+      "price": 110,
+      "image": null,
+      "popularity": 0,
+      "added": "2017-10-01T19:40:00.000Z"
+    },
+    {
+      "name": "Печиво з льоном та насінням",
+      "description": "Печиво з льоном та насінням",
+      "contain": "",
+      "price": 60,
+      "image": null,
+      "popularity": 0,
+      "added": "2017-10-01T19:50:00.000Z"
+    },
+    {
+      "name": "Лимонне печиво",
+      "description": "Лимонне печиво",
+      "contain": "",
+      "price": 85,
+      "image": null,
+      "popularity": 0
+    },
+    {
+      "name": "Печиво \"Подвійний шоколад\"",
+      "description": "Печиво \"Подвійний шоколад\"",
+      "contain": "",
+      "price": 85,
+      "image": null,
+      "popularity": 0,
+      "added": "2017-10-01T20:00:00.000Z"
+    }
+  ]
+}
