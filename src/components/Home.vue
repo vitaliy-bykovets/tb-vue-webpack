@@ -5,14 +5,19 @@
              v-on:filter="filterProducts($event)"
              v-on:changeWeight="changeWeight($event)"></filters>
     <product-list v-bind:items="filteredProducts"></product-list>
+    <to-top></to-top>
   </main>
 </template>
 
 <script>
+  // Store
   import { mapMutations } from 'vuex';
+  import { FETCH_PRODUCTS } from '@/store/actions';
+
+  // Components
   import ProductList from './ProductList.vue';
   import Filters from './Filters.vue';
-  import { FETCH_PRODUCTS } from '@/store/actions';
+  import ToTop from './ToTop.vue';
 
   export default {
     name: 'home',
@@ -63,6 +68,7 @@
       })
     },
     components: {
+      ToTop,
       ProductList,
       Filters,
     }

@@ -1,7 +1,7 @@
 <template>
   <div class="item" :class="{ 'is-open': isDescOpen }">
     <div class="item__img corner">
-      <span class="item__badge star-badge">
+      <span v-if="item.new" class="item__badge star-badge">
         New
       </span>
       <img v-if="item.image" :src="'../static/img/items/' + item.image" :alt="item.name">
