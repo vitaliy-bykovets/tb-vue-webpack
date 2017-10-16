@@ -1,7 +1,8 @@
 <template>
   <main class="container">
     <h2>Домашнє печиво та випічка</h2>
-    <filters v-on:filter="filterProducts($event)"
+    <filters v-bind:activeWeight="activeWeight"
+             v-on:filter="filterProducts($event)"
              v-on:changeWeight="changeWeight($event)"></filters>
     <product-list v-bind:items="filteredProducts"></product-list>
   </main>
@@ -43,6 +44,9 @@
             filteredProducts = products.filter(item => item.name.toLowerCase().includes(this.query.toLowerCase()));
         }
         return filteredProducts;
+      },
+      activeWeight() {
+        return this.$store.state.appStore.activeWeight;
       }
     },
     data: function() {

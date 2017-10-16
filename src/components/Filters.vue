@@ -11,7 +11,7 @@
           <input type="radio"
                  name="wight"
                  :id="'weight-' + index"
-                 :checked="amountType.value === 1000"
+                 :checked="activeWeight === amountType.value"
                  @change="changeWeight(amountType.value)">
           <label :for="'weight-' + index">{{ amountType.name }}</label>
         </div>
@@ -45,6 +45,7 @@
 
   export default {
     name: 'Filters',
+    props: ['activeWeight'],
     data: function () {
       return {
         sortFilters: CONSTANTS.SORT_FILTERS,
