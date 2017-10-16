@@ -41,7 +41,7 @@
 </template>
 
 <script>
-  import CONSTANTS from '../constants';
+  import CONSTANTS from '@/constants';
 
   export default {
     name: 'Filters',

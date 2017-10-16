@@ -11,7 +11,7 @@
   import { mapMutations } from 'vuex';
   import ProductList from './ProductList.vue';
   import Filters from './Filters.vue';
-  import { FETCH_PRODUCTS } from '../store/actions';
+  import { FETCH_PRODUCTS } from '@/store/actions';
 
   export default {
     name: 'home',

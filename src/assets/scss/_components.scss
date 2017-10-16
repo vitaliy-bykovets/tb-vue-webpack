@@ -680,6 +680,11 @@ h5 {
   -webkit-transition-timing-function: cubic-bezier(0, 0.35, .5, 1.7);
 }
 
+.contents__title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
 
 /*-----------------------------------------------------------*/
 /*--------------------- ITEM OPENED -------------------------*/
@@ -694,10 +699,16 @@ h5 {
     background: #eeeef4;
   }
 
+  .corner__tip:hover {
+    color: $color_primary;
+  }
+
   .corner__contents {
     width: 100%;
     height: 100%;
     -webkit-mask: none;
+    padding: 25px;
+    box-sizing: border-box;
   }
 
   .corner__contents:before,

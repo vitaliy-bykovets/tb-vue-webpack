@@ -2,15 +2,15 @@
   <div class="item" :class="{ 'is-open': isDescOpen }">
     <div class="item__img corner">
       <span class="item__badge star-badge">
-
+        New
       </span>
       <img v-if="item.image" :src="'../static/img/items/' + item.image" :alt="item.name">
       <img v-else :src="'../static/img/' + defaultItem.image" :alt="defaultItem.title">
       <div class="corner__box">
         <a class="corner__tip" href="#" @click="openDesc">
           <div class="corner__contents">
-            <h3>{{ item.name }}</h3>
-            <div>
+            <h3 class="contents__title">{{ item.name }}</h3>
+            <div class="contents__content">
               {{ item.description }}
             </div>
           </div>
@@ -30,7 +30,7 @@
 </template>
 
 <script>
-  import CONSTANTS from '../constants';
+  import CONSTANTS from '@/constants';
 
   export default {
     name: 'ProductCard',
