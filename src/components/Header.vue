@@ -3,7 +3,7 @@
     <h1 class="logo">
       <a class="logo__link" href="/" title="Tetiana Bykovets">
         <span class="logo__text">Tetiana</span>
-        <img class="logo__img" src="../assets/img/img-logo.png">
+        <img class="logo__img" src="../assets/img/logo.svg">
         <span class="logo__text">Bykovets</span>
       </a>
     </h1>
