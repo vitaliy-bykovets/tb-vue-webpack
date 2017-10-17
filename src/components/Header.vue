@@ -1,10 +1,10 @@
 <template>
   <header class="header container">
     <h1 class="logo">
-      <a class="logo__link" href="/" title="Tetiana Bykovets">
-        <span class="logo__text">Tetiana</span>
+      <a class="logo__link" href="/" title="Black Kitty">
+        <span class="logo__text">Black</span>
         <img class="logo__img" src="../assets/img/logo.svg">
-        <span class="logo__text">Bykovets</span>
+        <span class="logo__text">Kitty</span>
       </a>
     </h1>
     <div class="social-block">
