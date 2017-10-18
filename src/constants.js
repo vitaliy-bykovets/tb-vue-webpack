@@ -52,5 +52,10 @@ export default {
       name: '1кг',
       value: 1000
     },
-  ]
+  ],
+  INSTAGRAM_CREDENTIALS: {
+    token: '',
+    username: '',
+    count: 12
+  }
 };

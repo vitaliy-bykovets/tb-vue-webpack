@@ -1,6 +1,6 @@
 <template>
   <main class="container">
-    <h2>Домашнє печиво та випічка</h2>
+    <hero></hero>
     <filters v-bind:activeWeight="activeWeight"
              v-on:filter="filterProducts($event)"
              v-on:changeWeight="changeWeight($event)"></filters>
@@ -18,6 +18,7 @@
   import ProductList from './ProductList.vue';
   import Filters from './Filters.vue';
   import ToTop from './ToTop.vue';
+  import Hero from './Hero.vue';
 
   export default {
     name: 'home',
@@ -71,6 +72,7 @@
       ToTop,
       ProductList,
       Filters,
+      Hero,
     }
   };
 </script>

@@ -8,7 +8,7 @@
       </a>
     </h1>
     <div class="social-block">
-      <div>
+      <div class="social-block__phone">
         <i class="icon icon-phone" aria-hidden="true"></i>
         <a :href="'tel:' + contacts.phone" title="Замовити через телефон">{{ contacts.phone | toPhoneNumber}}</a>
       </div>

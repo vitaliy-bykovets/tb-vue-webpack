@@ -484,6 +484,10 @@ h5 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+
+  &__phone {
+    font-size: 1.25rem;
+  }
 }
 
 .social-list {
@@ -729,4 +733,18 @@ h5 {
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+/* Hero block
+   ========================================================================== */
+.hero {
+  height: 200px;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    margin-top: 0;
+  }
 }

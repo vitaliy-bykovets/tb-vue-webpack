@@ -1,9 +1,13 @@
 import Vue from 'vue';
 import App from './App.vue';
+import VueInstagram from 'vue-instagram';
 import './assets/scss/main.scss';
 
 Vue.config.debug = true;
 Vue.config.devtools = true;
+
+// Register plugins
+Vue.use(VueInstagram);
 
 // Set app routers
 import router from './routers';
