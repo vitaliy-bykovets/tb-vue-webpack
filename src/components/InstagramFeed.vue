@@ -1,11 +1,11 @@
 <template>
-  <vue-instagram token="instagramCredentials.token"
-                 username="instagramCredentials.username"
+  <vue-instagram :token="instagramCredentials.token"
+                 :username="instagramCredentials.username"
                  :count="instagramCredentials.count">
-    <template slot="feeds" scope="props">
+    <template slot="basic" slot-scope="props">
       <li class="fancy-list"> {{ props.feed.link }} </li>
     </template>
-    <template slot="error" scope="props">
+    <template slot="error" slot-scope="props">
       <div class="fancy-alert"> {{ props.error.error_message }} </div>
     </template>
   </vue-instagram>
