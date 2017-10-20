@@ -10,8 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "jsonp": "^0.2.1",
     "vue": "^2.5.2",
-    "vue-instagram": "^1.2.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.0"
   },

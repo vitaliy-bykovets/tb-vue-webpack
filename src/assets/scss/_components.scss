@@ -748,3 +748,23 @@ h5 {
     margin-top: 0;
   }
 }
+
+/* Feed List
+   ========================================================================== */
+.feed-list {
+  display: flex;
+  max-height: 250px;
+
+  &__item {
+
+  }
+
+  a {
+    display: block;
+    line-height: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}

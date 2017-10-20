@@ -54,8 +54,8 @@ export default {
     },
   ],
   INSTAGRAM_CREDENTIALS: {
-    token: '1578919786.1677ed0.e4923d23ffb54ca6a123cf92fc916ddb',
-    username: 'lopilup',
+    token: '1578919786.697a1bc.d29aa78e774b4ff498125aa07f142a57',
+    profile_id: '1578919786',
     count: 12
   }
 };
