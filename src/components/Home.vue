@@ -5,7 +5,6 @@
              v-on:filter="filterProducts($event)"
              v-on:changeWeight="changeWeight($event)"></filters>
     <product-list v-bind:items="filteredProducts"></product-list>
-    <to-top></to-top>
   </main>
 </template>
 
@@ -17,7 +16,6 @@
   // Components
   import ProductList from './ProductList.vue';
   import Filters from './Filters.vue';
-  import ToTop from './ToTop.vue';
   import Hero from './Hero.vue';
 
   export default {
@@ -69,7 +67,6 @@
       })
     },
     components: {
-      ToTop,
       ProductList,
       Filters,
       Hero,

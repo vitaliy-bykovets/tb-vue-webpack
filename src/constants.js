@@ -54,8 +54,8 @@ export default {
     },
   ],
   INSTAGRAM_CREDENTIALS: {
-    token: '1578919786.697a1bc.d29aa78e774b4ff498125aa07f142a57',
-    profile_id: '1578919786',
-    count: 12
+    token: '3322111648.24c53f7.278f1009c506438f8b7c68c2b5f6d857',
+    profile_id: '3322111648',
+    count: 6
   }
 };

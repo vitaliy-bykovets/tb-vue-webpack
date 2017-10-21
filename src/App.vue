@@ -6,6 +6,7 @@
       <instagram-feed></instagram-feed>
       <app-footer></app-footer>
     </div>
+    <to-top></to-top>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
   import AppHeader from './components/Header.vue';
   import AppFooter from './components/Footer.vue';
   import InstagramFeed from './components/InstagramFeed.vue';
+  import ToTop from './components/ToTop.vue';
 
   export default {
     name: 'app',
@@ -20,6 +22,7 @@
       AppHeader,
       AppFooter,
       InstagramFeed,
+      ToTop,
     },
   }
 </script>

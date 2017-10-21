@@ -1,6 +1,8 @@
 <template>
-  <footer class="footer container">
-    <p class="copyright">&copy; {{ getCurrentYear() }} Tetiana Bykovets</p>
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">&copy; {{ getCurrentYear() }} Tetiana Bykovets</p>
+    </div>
   </footer>
 </template>
 

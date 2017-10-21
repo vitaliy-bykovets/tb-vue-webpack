@@ -27,11 +27,13 @@ a:hover {
 }
 
 a:hover {
-  color: $color_link_hover;
+
 }
 
 p {
   letter-spacing: 1px;
+  margin-top: 0;
+  line-height: 1.3rem;
 }
 
 ul {
@@ -53,7 +55,7 @@ ul {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: $container_width;
   margin: 0 auto;
 }
 
@@ -103,7 +105,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: $color_primary;
+  color: inherit;
 }
 
 
@@ -344,6 +346,12 @@ h5 {
   }
 }
 
+.contents{
+  &__desc {
+    margin-bottom: 30px;
+  }
+}
+
 
 .star-badge {
   width: 45px;
@@ -549,10 +557,13 @@ h5 {
 /*-----------------------------------------------------------*/
 .footer {
   border-top: 1px solid $color_primary;
-  margin-top: 20px;
+  background-color: #18191f;
+  color: #f3f2f4;
+  padding: 15px 0;
 
   .copyright {
     text-align: center;
+    margin: 0;
   }
 }
 
@@ -751,13 +762,22 @@ h5 {
 
 /* Feed List
    ========================================================================== */
+.feed-list-container {
+  padding: 50px 0;
+  background-color: #6b7292;
+  text-align: center;
+  color: #f3f2f4;
+}
+
 .feed-list {
   display: flex;
-  max-height: 250px;
+  align-items: center;
+  height: calc(100vw / 6.5);
+  max-height: 170px;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: $container_width;
 
-  &__item {
-
-  }
 
   a {
     display: block;

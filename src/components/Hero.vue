@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="hero__content">
-      <h2 class="hero__title">Домашнє печиво та випічка</h2>
+      <h2 class="hero__title">Домашнє печиво та випічка на замовлення</h2>
     </div>
   </div>
 </template>

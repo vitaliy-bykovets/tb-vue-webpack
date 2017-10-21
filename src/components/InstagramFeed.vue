@@ -1,5 +1,6 @@
 <template>
-  <div class="instagram-feed">
+  <div class="feed-list-container">
+    <h3>Слідкуйте за нами в Instagram</h3>
     <ul class="feed-list">
       <li class="feed-list__item" v-for="item in feedList" v-bind:key="item.id">
         <a :href="item.link" target="_blank" title="Відкрити в Instagram">
