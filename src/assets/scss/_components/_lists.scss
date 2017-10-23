@@ -42,12 +42,14 @@
 .feed-list {
   display: flex;
   align-items: center;
-  height: calc(100vw / 6.5);
-  max-height: 170px;
-  overflow: hidden;
+  flex-wrap: wrap;
   margin: 0 auto;
-  //max-width: $container_width;
 
+  &__item {
+    width: 50%;
+    height: calc(100vw / 2);
+    overflow: hidden;
+  }
 
   a {
     display: block;
