@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Filters
+   ========================================================================== */
+.filters {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter__group .filters__box:first-child {
+  margin-right: 20px;
+}
+
+.filters__box .radio {
+  margin-left: 20px;
+}
+
+.select {
+  position: relative;
+  z-index: $z-index-select;
+
+  &__active-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $color_additional;
+    padding: 0.5em 1em;
+    line-height: 1em;
+  }
+
+  &__list {
+    display: none;
+    border: 1px solid $color_additional;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $color_inverse;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__list-item {
+    cursor: pointer;
+    padding: 1em;
+    line-height: 1em;
+
+    &:hover,
+    &.is-active {
+      background-color: $color_additional;
+    }
+  }
+
+  .select__active-item span {
+    margin-right: 10px;
+  }
+
+  .select__active-item .icon:nth-child(3) {
+    display: none;
+  }
+
+  &:hover .select__active-item .icon:nth-child(2) {
+    display: none;
+  }
+
+  &:hover .select__active-item .icon:nth-child(3) {
+    display: inline;
+  }
+
+  &:hover .select__list {
+    display: block;
+    border-top: none;
+  }
+}

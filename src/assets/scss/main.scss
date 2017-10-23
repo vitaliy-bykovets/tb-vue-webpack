@@ -1,6 +1,7 @@
 @import '_variables';
 @import '_mixins';
 @import '_normalize';
+@import '_general';
 
-@import '_components';
+@import '_components/index';
 @import '_responsive';
