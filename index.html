@@ -34,8 +34,12 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicons/apple-touch-icon-114x114.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="./assets/favicons/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon-precomposed" href="./assets/favicons/apple-touch-icon-57x57.png">
+
+  <!-- Manifest ========================================================= -->
+  <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/manifest.json">
 </head>
   <body>
     <div id="app"></div>
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
   </body>
 </html>
