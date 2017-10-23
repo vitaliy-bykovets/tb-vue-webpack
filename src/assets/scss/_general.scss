@@ -7,6 +7,7 @@
 }
 
 body {
+  color: $color_text_body;
   font-family: $font_body;
   font-size:   $font_size_body;
   line-height: $line_height_body;
@@ -18,8 +19,7 @@ body {
   overflow-x: hidden;
 }
 
-a,
-a:hover {
+a {
   color: $color_primary;
   text-decoration: none;
 
@@ -27,7 +27,7 @@ a:hover {
 }
 
 a:hover {
-
+  color: $color_link_hover;
 }
 
 p {
@@ -55,8 +55,9 @@ ul {
 }
 
 .container {
-  max-width: $container_width;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .text-center {
@@ -67,25 +68,6 @@ ul {
   //background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   height: 300px;
-}
-
-.content {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-
-  .item {
-    margin: 0 15px;
-    margin-bottom: 40px;
-  }
-
-  .item:nth-child(3n+1) {
-    margin-left: 0;
-  }
-
-  .item:nth-child(3n) {
-    margin-right: 0;
-  }
 }
 
 .flex {
@@ -108,7 +90,7 @@ h5 {
 }
 
 /* ==========================================================================
-   Compositing
+   Composition
    ========================================================================== */
 .mt-25  { margin-top: 25px  }
 .mt-50  { margin-top: 50px  }

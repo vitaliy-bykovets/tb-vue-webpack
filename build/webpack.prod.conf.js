@@ -104,7 +104,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       staticFileGlobs: ['dist/**/*.{js,html,css,jpg}'],
       // minify: true,
       stripPrefix: 'dist/',
-      
+
     })
   ]
 })

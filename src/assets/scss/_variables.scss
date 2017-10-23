@@ -1,45 +1,42 @@
-// ------------------------- TYPOGRAPHY ---------------------
-$font_body: 	Lato, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-$font_logo: 	'Dancing Script', cursive;
-
+/* Typography
+   ========================================================================== */
+$font_body: Lato, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$font_logo: 'Dancing Script', cursive;
 
 $font_size_body: 15px;
-$font_size_heading: 35px;
-$font_size_caption: 15px;
 $font_size_logo: 30px;
-$font_size_form_label: 12px;
 $font_size_btn: 14px;
 
-$font_weight_logo: 700;
-$font_weight_nav: 700;
-$font_weight_heading: normal;
-$font_weight_caption: 300;
-$font_weight_form_label: 700;
-$font_weight_btn: 		 700;
+$font_weight_btn: 700;
 
-$line_height_heading:    48px;
-$line_height_body: 	     24px;
+$line_height_body: 24px;
+$line_height_heading: 48px;
 
-// ------------------------- COLORS -------------------------
-$color_primary: 	#2F2A31;
-$color_additional: 	#ddd;
-$color_neutral: 	#f9f9f9;
+/* Colors
+   ========================================================================== */
+$color_primary: #2F2A31;
+$color_additional: #ddd;
+$color_neutral: #f9f9f9;
+$color_inverse: #fff;
 
-$color_text_body: 	#111;
-$color_line: 		#f6fafd;
-$color_line_form:	#999;
-$color_link_hover:	#999;
-$color_inverse:		#fff;
+$color_text_body: #111;
+$color_link_hover: #999;
+$color_error: #9c1d1b;
 
-$color_bullet:		#666;
-$color_error:       #9c1d1b;
+/* Sizes
+   ========================================================================== */
+$container-width-sm: 540px;
+$container-width-md: 720px;
+$container-width-lg: 960px;
+$container-width-xl: 1140px;
 
-// ------------------------- SIZES --------------------------
-$header_height: 	 83px;
-$caption_line_width: 75px;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1140px;
 
-$container_width: 1024px;
-
+/* Z-index
+   ========================================================================== */
 $z-index-select: 4;
 $z-index-radio: 2;
 $z-index-item-desc: 3;
