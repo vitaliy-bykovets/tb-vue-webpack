@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Forms and elements
+   ========================================================================== */
+
+/* Buttons
+   ========================================================================== */
+
+
+/* Fields
+   ========================================================================== */
+.text-field {
+  padding: 0.5em 1em;
+  border: 1px solid $color_additional;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Select
+   ========================================================================== */
+.select {
+  position: relative;
+  width: 100%;
+  z-index: $z-index-select;
+
+  &__active-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $color_additional;
+    padding: 0.5em 1em;
+    line-height: 1em;
+    width: 100%;
+  }
+
+  &__list {
+    display: none;
+    border: 1px solid $color_additional;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $color_inverse;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__list-item {
+    cursor: pointer;
+    padding: 1em;
+    line-height: 1em;
+
+    &:hover,
+    &.is-active {
+      background-color: $color_additional;
+    }
+  }
+
+  .select__active-item span {
+    margin-right: 10px;
+  }
+
+  .select__active-item .icon:nth-child(3) {
+    display: none;
+  }
+
+  &:hover .select__active-item .icon:nth-child(2) {
+    display: none;
+  }
+
+  &:hover .select__active-item .icon:nth-child(3) {
+    display: inline;
+  }
+
+  &:hover .select__list {
+    display: block;
+    border-top: none;
+  }
+}
+
+/* Radio buttons
+   ========================================================================== */
+.radio {
+  position: relative;
+  line-height: 17px;
+
+  label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+
+  label:before,
+  label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid $color_additional;
+    z-index: $z-index-radio;
+  }
+
+  label:after {
+    background-color: $color_primary;
+    transition: transform .1s ease-in-out;
+    transform: scale(0);
+    z-index: $z-index-radio + 1;
+  }
+
+  input[type=radio] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  input[type=radio]:checked + label:after {
+    transform: scale(.5);
+  }
+}

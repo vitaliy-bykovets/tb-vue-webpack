@@ -17,6 +17,10 @@ import filters from './filters';
 
 Vue.filter('toPhoneNumber', filters.toPhoneNumber);
 
+if ('serviceWorker' in navigator && !navigator.onLine) {
+  document.body.classList.add('app-is-offline');
+}
+
 const a = new Vue({
   el: '#app',
   router,

@@ -1,0 +1,110 @@
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+@font-face {
+  font-family: iconFont;
+  src: url(../fonts/icons.woff);
+}
+
+body {
+  color: $color_text_body;
+  font-family: $font_body;
+  font-size:   $font_size_body;
+  line-height: $line_height_body;
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  overflow-x: hidden;
+}
+
+a {
+  color: $color_primary;
+  text-decoration: none;
+
+  @include transition(color 300ms ease-in-out);
+}
+
+a:hover {
+  color: $color_link_hover;
+}
+
+p {
+  letter-spacing: 1px;
+  margin-top: 0;
+  line-height: 1.3rem;
+}
+
+ul {
+  margin:  0;
+  padding: 0;
+  list-style: none;
+}
+
+::placeholder {
+  color: $color_additional;
+}
+
+::-webkit-input-placeholder  {
+  color: $color_additional;
+}
+
+:-ms-input-placeholder {
+  color: $color_additional;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-main {
+  //background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.flex {
+  display: flex;
+
+  &--center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: inherit;
+}
+
+/* ==========================================================================
+   Composition
+   ========================================================================== */
+.mt-25  { margin-top: 25px  }
+.mt-50  { margin-top: 50px  }
+.mt-75  { margin-top: 75px  }
+.mt-100 { margin-top: 100px }
+
+.mb-25  { margin-bottom: 25px  }
+.mb-50  { margin-bottom: 50px  }
+.mb-75  { margin-bottom: 75px  }
+.mb-100 { margin-bottom: 100px }
