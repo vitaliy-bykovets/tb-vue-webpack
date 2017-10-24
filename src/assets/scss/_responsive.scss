@@ -11,19 +11,11 @@
   }
 
   .item {
-    max-width: 260px;
+    max-width: calc(50% - (10px - (10px / 2)));
     margin-right: 10px;
 
     &:nth-child(2n) {
       margin-right: 0;
-    }
-  }
-
-  .feed-list {
-
-    &__item {
-      width: 33.333%;
-      height: calc(100vw / 3);
     }
   }
 }
@@ -65,7 +57,15 @@
   }
 
   .item {
-    max-width: 305px;
+    max-width: calc(33.33333% - (15px - (15px / 3)));
+  }
+
+  .feed-list {
+
+    &__item {
+      width: 33.33333%;
+      height: calc(100vw / 3);
+    }
   }
 }
 
@@ -75,6 +75,23 @@
   }
 
   .item {
-    max-width: 260px;
+    max-width: calc(25% - (15px - (15px / 4)));
+    margin-right: 15px;
+
+    &:nth-child(3n) {
+      margin-right: 15px;
+    }
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+
+  .feed-list {
+
+    &__item {
+      width: calc(100vw / 6.07);
+      height: calc(100vw / 6.07);
+    }
   }
 }

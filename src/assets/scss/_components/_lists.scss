@@ -45,10 +45,11 @@
   flex-wrap: wrap;
   margin: 0 auto;
 
+
   &__item {
+    overflow: hidden;
     width: 50%;
     height: calc(100vw / 2);
-    overflow: hidden;
   }
 
   a {

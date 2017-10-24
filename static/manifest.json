@@ -1,6 +1,6 @@
 {
-  "name": "cropchat",
-  "short_name": "cropchat",
+  "name": "Black Kitty",
+  "short_name": "Black Kitty",
   "icons": [
     {
       "src": "/static/img/icons/cropchat-icon-64x64.png",
@@ -26,6 +26,6 @@
   "start_url": "/",
   "display": "browser",
   "orientation": "portrait",
-  "background_color": "#2196f3",
-  "theme_color": "#2196f3"
+  "background_color": "#000000",
+  "theme_color": "#000000"
 }
