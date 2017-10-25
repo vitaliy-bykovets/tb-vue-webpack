@@ -1,7 +1,7 @@
 <template>
   <div class="to-top">
     <a href="#"
-       @click="scrollToTop($event, 400)">Go Top</a>
+       @click="scrollToTop($event, 400)">Top</a>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
       scrollToTop(e, scrollDuration) {
         e.preventDefault();
 
-        var cosParameter = window.scrollY / 2,
+        let cosParameter = window.scrollY / 2,
             scrollCount = 0,
             oldTimestamp = performance.now();
 

@@ -42,6 +42,7 @@
 .feed-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
 
@@ -50,6 +51,11 @@
     overflow: hidden;
     width: 50%;
     height: calc(100vw / 2);
+  }
+
+
+  &__item:nth-last-child(-n+8) {
+    display: none;
   }
 
   a {

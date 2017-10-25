@@ -1,9 +1,7 @@
 <template>
   <div class="filters">
-    <div class="filters__box">
-      <input class="text-field" type="text" placeholder="Пошук..." @input="changeFilter($event.target.value)">
-    </div>
 
+    <!-- Amount -->
     <div class="filters__box flex flex--center">
       <div class="radio"
            v-for="(amountType, index) in weightFilters">
@@ -16,6 +14,12 @@
       </div>
     </div>
 
+    <!-- Search -->
+    <div class="filters__box">
+      <input class="text-field" type="text" placeholder="Пошук..." @input="changeFilter($event.target.value)">
+    </div>
+
+    <!-- Sort -->
     <div class="filters__box">
       <div class="select">
         <button class="select__active-item">

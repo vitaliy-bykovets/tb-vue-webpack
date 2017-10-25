@@ -45,17 +45,21 @@ export default {
   ],
   WEIGHT_FILTERS: [
     {
-      name: '100г',
-      value: 100
+      name: '500г',
+      value: 500
     },
     {
       name: '1кг',
       value: 1000
     },
+    {
+      name: '2кг',
+      value: 2000
+    },
   ],
   INSTAGRAM_CREDENTIALS: {
     token: '3322111648.24c53f7.278f1009c506438f8b7c68c2b5f6d857',
     profile_id: '3322111648',
-    count: 6
+    count: 12
   }
 };

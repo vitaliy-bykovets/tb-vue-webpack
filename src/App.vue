@@ -6,7 +6,7 @@
       <instagram-feed></instagram-feed>
       <app-footer></app-footer>
     </div>
-    <to-top></to-top>
+    <to-top :class="{ 'is-show' : showTopBtn }"></to-top>
   </div>
 </template>
 
@@ -24,5 +24,37 @@
       InstagramFeed,
       ToTop,
     },
+    data: function() {
+      return {
+        showTopBtn: false,
+        scrollTicking: false,
+        lastScrollPos: 0,
+        windowHeight: window.innerHeight,
+      }
+    },
+    methods: {
+      onScroll() {
+        this.lastScrollPos = window.scrollY;
+        this.requestTick();
+      },
+
+      requestTick() {
+        if(!this.scrollTicking) {
+          requestAnimationFrame(this.update);
+        }
+        this.scrollTicking = true;
+      },
+
+      update() {
+        this.scrollTicking  = false;
+        this.lastScrollPos > this.windowHeight - 200 ? this.showTopBtn = true : this.showTopBtn = false;
+      }
+    },
+    created: function () {
+      window.addEventListener('scroll', this.onScroll);
+    },
+    destroyed: function () {
+      window.removeEventListener('scroll', this.onScroll);
+    }
   }
 </script>

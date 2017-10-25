@@ -44,6 +44,14 @@
       width: 33.333%;
       height: calc(100vw / 3);
     }
+
+    &__item:nth-child(n) {
+      display: list-item;
+    }
+
+    &__item:nth-last-child(-n+6) {
+      display: none;
+    }
   }
 }
 
@@ -63,8 +71,16 @@
   .feed-list {
 
     &__item {
-      width: 33.33333%;
-      height: calc(100vw / 3);
+      width: 25%;
+      height: calc(100vw / 4);
+    }
+
+    &__item:nth-child(n) {
+      display: list-item;
+    }
+
+    &__item:nth-last-child(-n+4) {
+      display: none;
     }
   }
 }
@@ -89,9 +105,13 @@
 
   .feed-list {
 
+    &__item:nth-child(n) {
+      display: list-item;
+    }
+
     &__item {
-      width: calc(100vw / 6.07);
-      height: calc(100vw / 6.07);
+      width: calc(100vw / 12 - 1.5px);
+      height: calc(100vw / 12 - 1.5px);
     }
   }
 }
