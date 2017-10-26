@@ -3,23 +3,13 @@
   "short_name": "Black Kitty",
   "icons": [
     {
-      "src": "/static/img/icons/cropchat-icon-64x64.png",
+      "src": "img/icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/static/img/icons/cropchat-icon-128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "/static/img/icons/cropchat-icon-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "/static/img/icons/cropchat-icon-512x512.png",
-      "sizes": "512x512",
+      "src": "img/icons/android-chrome-384x384.png",
+      "sizes": "384x384",
       "type": "image/png"
     }
   ],
