@@ -3,6 +3,7 @@
     <div class="content-wrapper">
       <app-header></app-header>
       <router-view></router-view>
+      <hr-divider v-bind:type="'heart'"></hr-divider>
       <instagram-feed></instagram-feed>
       <app-footer></app-footer>
     </div>
@@ -15,6 +16,7 @@
   import AppFooter from './components/Footer.vue';
   import InstagramFeed from './components/InstagramFeed.vue';
   import ToTop from './components/ToTop.vue';
+  import HrDivider from './components/HrDivider.vue';
 
   export default {
     name: 'app',
@@ -22,6 +24,7 @@
       AppHeader,
       AppFooter,
       InstagramFeed,
+      HrDivider,
       ToTop,
     },
     data: function() {

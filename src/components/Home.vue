@@ -63,7 +63,7 @@
         this.query = query;
       },
       ...mapMutations({
-        changeWeight: 'setActiveWeight' // map `this.add()` to `this.$store.commit('increment')`
+        changeWeight: 'setActiveWeight'
       })
     },
     components: {

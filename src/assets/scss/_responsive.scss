@@ -8,6 +8,7 @@
 
   .content {
     justify-content: flex-start;
+    margin-bottom: 50px;
   }
 
   .item {
@@ -110,8 +111,8 @@
     }
 
     &__item {
-      width: calc(100vw / 12 - 1.5px);
-      height: calc(100vw / 12 - 1.5px);
+      width: calc(1140px / 8);
+      height: calc(1140px / 8);
     }
   }
 }
