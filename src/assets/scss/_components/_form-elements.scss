@@ -9,10 +9,13 @@
 /* Fields
    ========================================================================== */
 .text-field {
-  padding: 0.5em 1em;
-  border: 1px solid $color_additional;
+  padding: 0.75em 1em;
+  border: 1px solid $color_neutral;
   width: 100%;
   box-sizing: border-box;
+  border-radius: $border-radius;
+  line-height: 1em;
+  min-height: 42px;
 }
 
 /* Select
@@ -25,15 +28,17 @@
   &__active-item {
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid $color_additional;
-    padding: 0.5em 1em;
+    border: 1px solid $color_neutral;
+    padding: 0.75em 1em;
     line-height: 1em;
     width: 100%;
+    border-radius: $border-radius;
+    min-height: 42px;
   }
 
   &__list {
     display: none;
-    border: 1px solid $color_additional;
+    border: 1px solid $color_neutral;
     position: absolute;
     top: 100%;
     left: 0;
@@ -49,7 +54,7 @@
 
     &:hover,
     &.is-active {
-      background-color: $color_additional;
+      background-color: $color_neutral;
     }
   }
 
@@ -97,7 +102,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 1px solid $color_additional;
+    border: 1px solid $color_neutral;
     z-index: $z-index-radio;
   }
 

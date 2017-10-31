@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div class="hero bg-main">
     <div class="hero__content">
       <h2 class="hero__title">Домашнє печиво та випічка на замовлення</h2>
     </div>

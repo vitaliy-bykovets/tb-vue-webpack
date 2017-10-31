@@ -5,6 +5,9 @@
              v-on:filter="filterProducts($event)"
              v-on:changeWeight="changeWeight($event)"></filters>
     <product-list v-bind:items="filteredProducts"></product-list>
+    <div class="empty-search">
+      <h4 v-if="filteredProducts.length === 0">Нажаль нічого не знайдено :(</h4>
+    </div>
   </main>
 </template>
 

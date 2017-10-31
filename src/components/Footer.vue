@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <p class="copyright">&copy; {{ getCurrentYear() }} Tetiana Bykovets</p>
+      <p class="copyright">&copy; {{ getCurrentYear() }} Black Kitty</p>
     </div>
   </footer>
 </template>

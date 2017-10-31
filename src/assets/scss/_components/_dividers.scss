@@ -1,5 +1,7 @@
 .hr-divider {
   width: 100%;
+  max-width: $container-width-xl;
+  margin: 0 auto;
   position: relative;
 
   &__marker {
@@ -12,11 +14,9 @@
   &:before,
   &:after {
     content: '';
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4My42NSAyLjA4Ij48cGF0aCBmaWxsPSIjNDM0MDQwIiBkPSJNLjQ2LjU0UzEuNzUuNDIsNCwuM0M1LjE1LjI1LDYuNTIuMTYsOC4wOS4xMlMxMS40NSwwLDEzLjM4LDBjMy44OC0uMDUsOC40LjEsMTMuMjUuMTVMMzQuMS4ybDcuNzEuMDdDNDcsLjM2LDUyLjE2LjUyLDU3LC41MWMyLjQyLDAsNC43Ny0uMDgsNy0uMTZzNC4zMi0uMSw2LjI2LS4xMWw1LjI5LDAsNC4wOC4xYzIuMjYuMDgsMy41NS4xNSwzLjU1LjE1YS41MS41MSwwLDAsMSwwLDFzLTEuMjkuMDctMy41NS4xNWwtNC4wOC4xLTUuMjksMGMtMS45NCwwLTQsMC02LjI2LS4xMXMtNC41Ni0uMTUtNy0uMTZjLTQuODUsMC0xMCwuMTUtMTUuMTkuMjRsLTcuNzEuMDctNy40NywwYy00Ljg1LDAtOS4zNy4yLTEzLjI1LjE1QzExLjQ1LDIuMDcsOS42NywyLDguMDksMlM1LjE1LDEuODMsNCwxLjc5QzEuNzUsMS42Ni40NiwxLjU1LjQ2LDEuNTVhLjUxLjUxLDAsMCwxLDAtMVoiLz48L3N2Zz4=);
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-    width: 40%;
-    height: 4px;
+    background-color: $color_primary;
+    width: 45%;
+    height: 1px;
     top: 0;
     position: absolute;
   }
