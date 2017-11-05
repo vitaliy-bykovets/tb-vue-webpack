@@ -8,8 +8,8 @@
         <input type="radio"
                name="wight"
                :id="'weight-' + index"
-               :checked="activeWeight === amountType.value"
-               @change="changeWeight(amountType.value)">
+               :checked="activeWeight.value === amountType.value"
+               @change="changeWeight(amountType)">
         <label :for="'weight-' + index">{{ amountType.name }}</label>
       </div>
     </div>
@@ -21,8 +21,10 @@
 
     <!-- Sort -->
     <div class="filters__box">
-      <div class="select">
-        <button class="select__active-item">
+      <div class="select"
+           :class="{ 'is-open': sortIsOpen }">
+        <button class="select__active-item"
+                v-on:click="toggleSortingDropdown()">
           <span>Сортування</span>
           <i class="icon icon-arrow-down"></i>
           <i class="icon icon-arrow-up"></i>
@@ -51,6 +53,7 @@
     data: function () {
       return {
         sortFilters: CONSTANTS.SORT_FILTERS,
+        sortIsOpen: false,
         weightFilters: CONSTANTS.WEIGHT_FILTERS,
         query: '',
         activeSortType: 'newest'
@@ -59,11 +62,14 @@
     methods: {
       changeFilter(query) {
         let activeSort = this.sortFilters.find(item => item.value === query);
-        if (activeSort) this.activeSortType = activeSort.value
+        if (activeSort) this.activeSortType = activeSort.value;
         this.$emit('filter', query);
       },
-      changeWeight(value) {
-        this.$emit('changeWeight', value);
+      changeWeight(weight) {
+        this.$emit('changeWeight', weight);
+      },
+      toggleSortingDropdown() {
+        this.sortIsOpen = !this.sortIsOpen;
       }
     }
   }

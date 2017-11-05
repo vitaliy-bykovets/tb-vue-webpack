@@ -1,9 +1,10 @@
 import { SET_ACTIVE_FILTER, SET_ACTIVE_WEIGHT } from '../mutations';
+import CONSTANTS from '@/constants';
 
 // Initial state of store
 export const state = {
   activeFilter: 'newest',
-  activeWeight: 1000,
+  activeWeight: CONSTANTS.WEIGHT_FILTERS[0],
   query: '',
 };
 

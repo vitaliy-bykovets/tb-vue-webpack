@@ -27,7 +27,7 @@
       </div>
       <div>
         <span class="item__price">{{ price }}</span>
-        <span class="item__measure">({{ weightAmount === 1000 ? '1кг' : weightAmount + 'г'}})</span>
+        <span class="item__measure">({{ activeWeight.name }})</span>
       </div>
     </div>
   </div>
@@ -40,11 +40,11 @@
     name: 'ProductCard',
     props: ['item'],
     computed: {
-      weightAmount() {
+      activeWeight() {
         return this.$store.state.appStore.activeWeight;
       },
       price() {
-        return (this.item.price * this.$store.state.appStore.activeWeight / 1000).toFixed(2);
+        return (this.item.price * this.$store.state.appStore.activeWeight.value / 1000).toFixed(2);
       },
     },
     data: function () {
