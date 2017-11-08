@@ -9,15 +9,17 @@
       <div class="corner__box">
         <a class="corner__tip" href="#" @click="openDesc">
           <div class="corner__contents">
-            <h3 class="contents__title">{{ item.name }}</h3>
-            <div class="contents__desc">
-              {{ item.description }}
-            </div>
-            <div class="composition">
-              <p><strong>Склад:</strong></p>
-              <p>{{ item.composition.join(', ') }}</p>
-            </div>
+
           </div>
+          <h3 class="contents__title">{{ item.name }}</h3>
+          <div class="contents__desc">
+          {{ item.description }}
+          </div>
+          <div class="composition">
+          <p><strong>Склад:</strong></p>
+          <p>{{ item.composition.join(', ') }}</p>
+          </div>
+
         </a>
       </div>
     </div>

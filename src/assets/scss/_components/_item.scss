@@ -85,10 +85,10 @@
 .corner__tip:before {
   right: 100%;
   bottom: 0%;
-  /* autoprefixer: off */
-  background: -webkit-radial-gradient(-180% 200%, circle, rgba(255,255,255,0) 85%, rgba(0,0,0,.1) 93%);
-  /* autoprefixer: off */
-  background: radial-gradient(-180% 200%, circle, rgba(255,255,255,0) 85%, rgba(0,0,0,.1) 93%);
+  /*! autoprefixer: off */
+  background: -webkit-radial-gradient(-180% 200%, circle cover, rgba(0,0,0,0) 85%,rgba(0,0,0,.1) 93%);
+  /*! autoprefixer: off */
+  background: radial-gradient(circle at -180% 200%, rgba(0,0,0,0) 85%,rgba(0,0,0,.1) 93%);
 }
 
 .corner__tip:before {
@@ -103,10 +103,10 @@
 .corner__tip:after {
   bottom: 100%;
   right: 0%;
-  /* autoprefixer: off */
-  background: -webkit-radial-gradient(-250% 320%, circle, rgba(255,255,255,0) 85%, rgba(0,0,0,.10) 93%);
-  /* autoprefixer: off */
-  background: radial-gradient(-250% 320%, circle, rgba(255,255,255,0) 85%, rgba(0,0,0,.10) 93%);
+  /*! autoprefixer: off */
+  background: -webkit-radial-gradient(-80% 250%, circle cover, rgba(255,255,255,0) 85%, rgba(0,0,0,.1) 93%);
+  /*! autoprefixer: off */
+  background: radial-gradient(circle at -80% 250%, rgba(255,255,255,0) 85%, rgba(0,0,0,.1) 93%);
 }
 
 .corner__tip:after  {
