@@ -6541,5 +6541,732 @@
     ],
     "pureCssSize": 21421,
     "unPureCssSize": 18847
+  },
+  {
+    "timeStamp": 1510177258045,
+    "time": 10058,
+    "hash": "a4f4b734cfe38a88bb2b",
+    "errors": [],
+    "size": 2109403,
+    "assets": [
+      {
+        "name": "static/img/icons/favicon-32x32.png",
+        "chunks": [],
+        "size": 1152
+      },
+      {
+        "name": "static/js/vendor.363aca6771e9bf0fe771.js",
+        "chunks": [
+          0
+        ],
+        "size": 139936,
+        "minified": true
+      },
+      {
+        "name": "static/js/manifest.3ec0518a59c5018ae2d3.js",
+        "chunks": [
+          2
+        ],
+        "size": 1485,
+        "minified": true
+      },
+      {
+        "name": "static/css/app.d5e16b838d77c29b38048d00bb75cbdb.css",
+        "chunks": [
+          1
+        ],
+        "size": 18845
+      },
+      {
+        "name": "static/js/vendor.363aca6771e9bf0fe771.js.map",
+        "chunks": [
+          0
+        ],
+        "size": 1116484
+      },
+      {
+        "name": "static/js/app.84aeea8d8bdfe366599d.js.map",
+        "chunks": [
+          1
+        ],
+        "size": 139221
+      },
+      {
+        "name": "static/js/manifest.3ec0518a59c5018ae2d3.js.map",
+        "chunks": [
+          2
+        ],
+        "size": 14245
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 1526
+      },
+      {
+        "name": "static/data.json",
+        "chunks": [],
+        "size": 4684
+      },
+      {
+        "name": "static/img/icons/android-chrome-192x192.png",
+        "chunks": [],
+        "size": 6892
+      },
+      {
+        "name": "static/img/icons/android-chrome-384x384.png",
+        "chunks": [],
+        "size": 15501
+      },
+      {
+        "name": "static/img/empty-item.png",
+        "chunks": [],
+        "size": 41218
+      },
+      {
+        "name": "static/img/icons/apple-touch-icon.png",
+        "chunks": [],
+        "size": 4714
+      },
+      {
+        "name": "static/img/icons/favicon-16x16.png",
+        "chunks": [],
+        "size": 711
+      },
+      {
+        "name": "static/js/app.84aeea8d8bdfe366599d.js",
+        "chunks": [
+          1
+        ],
+        "size": 21247,
+        "minified": true
+      },
+      {
+        "name": "static/img/icons/favicon.ico",
+        "chunks": [],
+        "size": 15086
+      },
+      {
+        "name": "static/img/icons/mstile-150x150.png",
+        "chunks": [],
+        "size": 4934
+      },
+      {
+        "name": "static/img/icons/safari-pinned-tab.svg",
+        "chunks": [],
+        "size": 1271
+      },
+      {
+        "name": "static/img/items/item-01.jpg",
+        "chunks": [],
+        "size": 60929
+      },
+      {
+        "name": "static/img/items/item-02.jpg",
+        "chunks": [],
+        "size": 72864
+      },
+      {
+        "name": "static/img/items/item-03.jpg",
+        "chunks": [],
+        "size": 63232
+      },
+      {
+        "name": "static/img/items/item-04.jpg",
+        "chunks": [],
+        "size": 97334
+      },
+      {
+        "name": "static/img/items/item-05.jpg",
+        "chunks": [],
+        "size": 120057
+      },
+      {
+        "name": "static/logo.jpg",
+        "chunks": [],
+        "size": 14283
+      },
+      {
+        "name": "static/logo.png",
+        "chunks": [],
+        "size": 20060
+      },
+      {
+        "name": "static/img/items/item-06.jpg",
+        "chunks": [],
+        "size": 106820
+      },
+      {
+        "name": "static/logo.svg.svg",
+        "chunks": [],
+        "size": 3886
+      },
+      {
+        "name": "static/manifest.json",
+        "chunks": [],
+        "size": 460
+      },
+      {
+        "name": "static/service-worker-registration.js",
+        "chunks": [],
+        "size": 326
+      }
+    ],
+    "chunks": [
+      {
+        "size": 426160,
+        "files": [
+          "static/js/vendor.363aca6771e9bf0fe771.js",
+          "static/js/vendor.363aca6771e9bf0fe771.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/core-js/library/modules/_descriptors.js",
+            "size": 184,
+            "id": "+E39"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_ctx.js",
+            "size": 520,
+            "id": "+ZMJ"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 65626,
+            "id": "/ocq"
+          },
+          {
+            "name": "./node_modules/timers-browserify/main.js",
+            "size": 1360,
+            "id": "162o"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-gops.js",
+            "size": 42,
+            "id": "1kS7"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_uid.js",
+            "size": 162,
+            "id": "3Eo+"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_defined.js",
+            "size": 162,
+            "id": "52gC"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.esm.js",
+            "size": 281532,
+            "id": "7+uW"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_an-object.js",
+            "size": 154,
+            "id": "77Pl"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_global.js",
+            "size": 369,
+            "id": "7KvD"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/object/define-property.js",
+            "size": 215,
+            "id": "9bBU"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/object/define-property.js",
+            "size": 103,
+            "id": "C4MV"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_has.js",
+            "size": 120,
+            "id": "D2L2"
+          },
+          {
+            "name": "./node_modules/babel-runtime/helpers/extends.js",
+            "size": 544,
+            "id": "Dd8w"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 488,
+            "id": "DuR2"
+          },
+          {
+            "name": "./node_modules/ms/index.js",
+            "size": 2764,
+            "id": "EarI"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_is-object.js",
+            "size": 110,
+            "id": "EqjI"
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": "FZ+f"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_core.js",
+            "size": 122,
+            "id": "FeBl"
+          },
+          {
+            "name": "./node_modules/debug/src/browser.js",
+            "size": 4734,
+            "id": "Fy0/"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-keys-internal.js",
+            "size": 537,
+            "id": "Ibhu"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iobject.js",
+            "size": 289,
+            "id": "MU5D"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-primitive.js",
+            "size": 655,
+            "id": "MmMw"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 26121,
+            "id": "NYxO"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-pie.js",
+            "size": 37,
+            "id": "NpIQ"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_dom-create.js",
+            "size": 289,
+            "id": "ON07"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-length.js",
+            "size": 215,
+            "id": "QRG4"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.object.assign.js",
+            "size": 162,
+            "id": "R4wc"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_cof.js",
+            "size": 106,
+            "id": "R9M2"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_fails.js",
+            "size": 104,
+            "id": "S82l"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
+            "size": 199,
+            "id": "SfB7"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-iobject.js",
+            "size": 217,
+            "id": "TcQ7"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-assign.js",
+            "size": 1195,
+            "id": "To3L"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-integer.js",
+            "size": 161,
+            "id": "UuGF"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/object/assign.js",
+            "size": 107,
+            "id": "V3tA"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/component-normalizer.js",
+            "size": 2896,
+            "id": "VU/8"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": "W2nU"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_property-desc.js",
+            "size": 173,
+            "id": "X8DO"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_shared-key.js",
+            "size": 159,
+            "id": "ax3d"
+          },
+          {
+            "name": "./node_modules/babel-runtime/helpers/defineProperty.js",
+            "size": 540,
+            "id": "bOdI"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_shared.js",
+            "size": 202,
+            "id": "e8AB"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-dp.js",
+            "size": 600,
+            "id": "evD5"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+            "size": 223,
+            "id": "fkB2"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_hide.js",
+            "size": 286,
+            "id": "hJx8"
+          },
+          {
+            "name": "./node_modules/jsonp/index.js",
+            "size": 1946,
+            "id": "hU7x"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_export.js",
+            "size": 2317,
+            "id": "kM2E"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_a-function.js",
+            "size": 125,
+            "id": "lOnJ"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-keys.js",
+            "size": 222,
+            "id": "lktj"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.object.define-property.js",
+            "size": 217,
+            "id": "mClu"
+          },
+          {
+            "name": "./node_modules/setimmediate/setImmediate.js",
+            "size": 6473,
+            "id": "mypn"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6055,
+            "id": "rjj0"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-object.js",
+            "size": 132,
+            "id": "sB3e"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 639,
+            "id": "tTVk"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_array-includes.js",
+            "size": 924,
+            "id": "vFc/"
+          },
+          {
+            "name": "./node_modules/debug/src/debug.js",
+            "size": 4394,
+            "id": "vmzn"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/object/assign.js",
+            "size": 94,
+            "id": "woOf"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_enum-bug-keys.js",
+            "size": 160,
+            "id": "xnc9"
+          }
+        ]
+      },
+      {
+        "size": 38507,
+        "files": [
+          "static/js/app.84aeea8d8bdfe366599d.js",
+          "static/css/app.d5e16b838d77c29b38048d00bb75cbdb.css",
+          "static/js/app.84aeea8d8bdfe366599d.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./src/services/productService.js",
+            "size": 312,
+            "id": "+p12"
+          },
+          {
+            "name": "./static/data.json",
+            "size": 2813,
+            "id": "1mYX"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-90fa098a\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ProductCard.vue",
+            "size": 1614,
+            "id": "7ZXI"
+          },
+          {
+            "name": "./src/components/ProductCard.vue",
+            "size": 1029,
+            "id": "93YD"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-e9c172c8\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue",
+            "size": 565,
+            "id": "B5a1"
+          },
+          {
+            "name": "./src/components/HrDivider.vue",
+            "size": 1025,
+            "id": "Cqvu"
+          },
+          {
+            "name": "./src/components/Filters.vue",
+            "size": 1021,
+            "id": "DlPZ"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Hero.vue",
+            "size": 59,
+            "id": "DpAH"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ProductList.vue",
+            "size": 176,
+            "id": "FEs4"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Home.vue",
+            "size": 2276,
+            "id": "Fs8J"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Header.vue",
+            "size": 285,
+            "id": "HCTz"
+          },
+          {
+            "name": "./src/store/index.js",
+            "size": 283,
+            "id": "IcnI"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ToTop.vue",
+            "size": 806,
+            "id": "JS3i"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-8b77c2e4\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Hero.vue",
+            "size": 480,
+            "id": "JdUW"
+          },
+          {
+            "name": "./src/components/InstagramFeed.vue",
+            "size": 1033,
+            "id": "L1Q9"
+          },
+          {
+            "name": "./src/App.vue",
+            "size": 1001,
+            "id": "M93x"
+          },
+          {
+            "name": "./src/assets/scss/main.scss",
+            "size": 41,
+            "id": "MXkr"
+          },
+          {
+            "name": "./src/main.js",
+            "size": 569,
+            "id": "NHnr"
+          },
+          {
+            "name": "./src/routers/index.js",
+            "size": 271,
+            "id": "Q3uA"
+          },
+          {
+            "name": "./node_modules/extract-text-webpack-plugin/dist/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader!./node_modules/css-loader?{\"minimize\":true,\"sourceMap\":true}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-6b6060a1\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/Header.vue",
+            "size": 41,
+            "id": "QZ3M"
+          },
+          {
+            "name": "./src/components/Footer.vue",
+            "size": 1464,
+            "id": "TVmP"
+          },
+          {
+            "name": "./src/components/Hero.vue",
+            "size": 1015,
+            "id": "UfZ0"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Footer.vue",
+            "size": 175,
+            "id": "UthT"
+          },
+          {
+            "name": "./src/components/ToTop.vue",
+            "size": 1017,
+            "id": "VZnd"
+          },
+          {
+            "name": "./src/store/modules/app.js",
+            "size": 670,
+            "id": "WSTi"
+          },
+          {
+            "name": "./src/store/modules/products.js",
+            "size": 654,
+            "id": "Xct0"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-4a8f658c\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/InstagramFeed.vue",
+            "size": 620,
+            "id": "aA1P"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-6b6060a1\",\"hasScoped\":true,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Header.vue",
+            "size": 1342,
+            "id": "bZ0D"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/HrDivider.vue",
+            "size": 77,
+            "id": "bkw/"
+          },
+          {
+            "name": "./src/assets/img/logo.svg",
+            "size": 3245,
+            "id": "cH+4"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-4a2dfcaf\",\"hasScoped\":true,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Footer.vue",
+            "size": 384,
+            "id": "deDF"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-0d06964b\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/HrDivider.vue",
+            "size": 332,
+            "id": "fmVa"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-7ba56e1a\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Home.vue",
+            "size": 670,
+            "id": "gJKI"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-ee9172d2\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Filters.vue",
+            "size": 1617,
+            "id": "jBFw"
+          },
+          {
+            "name": "./node_modules/extract-text-webpack-plugin/dist/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader!./node_modules/css-loader?{\"minimize\":true,\"sourceMap\":true}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-4a2dfcaf\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/Footer.vue",
+            "size": 41,
+            "id": "l8J2"
+          },
+          {
+            "name": "./src/components/Home.vue",
+            "size": 1015,
+            "id": "lO7g"
+          },
+          {
+            "name": "./src/filters.js",
+            "size": 174,
+            "id": "lviy"
+          },
+          {
+            "name": "./src/store/actions.js",
+            "size": 44,
+            "id": "mUbh"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-60c710f6\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ToTop.vue",
+            "size": 355,
+            "id": "mZRb"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-0835b9c9\",\"hasScoped\":false,\"transformToRequire\":{\"video\":\"src\",\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ProductList.vue",
+            "size": 347,
+            "id": "o6h2"
+          },
+          {
+            "name": "./src/constants.js",
+            "size": 987,
+            "id": "oiih"
+          },
+          {
+            "name": "./src/components/Header.vue",
+            "size": 1464,
+            "id": "teIl"
+          },
+          {
+            "name": "./src/store/mutations.js",
+            "size": 140,
+            "id": "ukYY"
+          },
+          {
+            "name": "./src/components/ProductList.vue",
+            "size": 1029,
+            "id": "vmgX"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Filters.vue",
+            "size": 945,
+            "id": "wSfA"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ProductCard.vue",
+            "size": 723,
+            "id": "x4oS"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/App.vue",
+            "size": 1486,
+            "id": "xJD8"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/InstagramFeed.vue",
+            "size": 775,
+            "id": "ysTO"
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "static/js/manifest.3ec0518a59c5018ae2d3.js",
+          "static/js/manifest.3ec0518a59c5018ae2d3.js.map"
+        ],
+        "modules": []
+      }
+    ],
+    "pureCssSize": 21419,
+    "unPureCssSize": 18845
   }
 ]

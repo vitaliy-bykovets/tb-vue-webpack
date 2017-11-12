@@ -3,6 +3,7 @@
    ========================================================================== */
 .header {
   margin-top: 25px;
+  margin-bottom: 70px;
 }
 
 /* Logo
@@ -42,8 +43,36 @@
   }
 
   &__img {
-    max-height: 35px;
-    height: 100%;
+    display: inline-block;
+    width: 100%;
+    max-width: 37px;
     vertical-align: middle;
   }
+
+  .logo__mustache {
+    transform-origin: 50% 50%;
+  }
+}
+
+.logo__link:hover {
+  .logo__mustache {
+    -webkit-animation: mMove .5s ease-in-out 0s forwards;
+    animation: mMove .5s ease-in-out 0s forwards;
+  }
+}
+
+@-webkit-keyframes mMove {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(15deg);}
+  50% { transform: rotate(-20deg);}
+  75% { transform: rotate(15deg);}
+  100% { transform: rotate(0deg);}
+}
+
+@keyframes mMove {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(15deg);}
+  50% { transform: rotate(-20deg);}
+  75% { transform: rotate(15deg);}
+  100% { transform: rotate(0deg);}
 }

@@ -58,7 +58,7 @@ export default {
     },
   ],
   INSTAGRAM_CREDENTIALS: {
-    token: '3322111648.24c53f7.278f1009c506438f8b7c68c2b5f6d857',
+    token: '3322111648.1677ed0.73af52b7495d469490ed018e97274be8',
     profile_id: '3322111648',
     count: 8
   }
