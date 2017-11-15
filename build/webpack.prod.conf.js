@@ -13,7 +13,8 @@ const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
 const PrerenderSpaPlugin = require('prerender-spa-plugin')
 // const WebpackMonitor = require('webpack-monitor');
 
-const env = config.build.env
+const env = config.build.env;
+
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
