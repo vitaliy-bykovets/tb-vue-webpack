@@ -11,7 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
 const PrerenderSpaPlugin = require('prerender-spa-plugin')
-const WebpackMonitor = require('webpack-monitor');
+// const WebpackMonitor = require('webpack-monitor');
 
 const env = config.build.env
 
@@ -117,11 +117,11 @@ const webpackConfig = merge(baseWebpackConfig, {
       [ '/' ]
     ),
     // Statistic about bundle
-    new WebpackMonitor({
-      capture: true,
-      launch: true,
-      port: 3131,
-    }),
+    // new WebpackMonitor({
+    //   capture: true,
+    //   launch: true,
+    //   port: 3131,
+    // }),
   ]
 })
 
